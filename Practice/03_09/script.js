@@ -24,3 +24,14 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+console.log("Before: ", backpack.strapLength);
+
+backpack.newStrapLength(10, 15);
+
+console.log(
+  "After Left: ",
+  backpack.strapLength.left,
+  "After Right: ",
+  backpack.strapLength.right
+);
